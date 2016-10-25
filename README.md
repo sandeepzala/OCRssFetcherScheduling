@@ -1,3 +1,12 @@
+#Guide 
+	This repository octoberCMS installation + Rss Fetcher Plugin. Setup an laravel artisan scheduler to fetch job daily.
+
+#Execution Step 
+
+Setup below cron to fetch RSS feeds daily
+
+	* * * * * php /path/to/artisan schedule:run >> /dev/null 2>&1
+
 # Installation wizard for October
 
 The wizard installation is a recommended way to install October. It is simpler than the command-line installation and doesn't require any special skills.
