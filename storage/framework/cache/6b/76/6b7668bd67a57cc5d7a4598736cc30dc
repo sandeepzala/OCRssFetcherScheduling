@@ -1,0 +1,9 @@
+1477326904a:1:{s:13:"rss-feeds.htm";a:10:{s:8:"fileName";s:13:"rss-feeds.htm";s:7:"content";s:135:"title = "RSS Feeds"
+url = "/rss-feeds"
+layout = "default"
+is_hidden = 0
+
+[rssItems]
+maxItems = 10
+==
+{% component 'rssItems' %}";s:5:"mtime";i:1477326302;s:6:"markup";s:26:"{% component 'rssItems' %}";s:4:"code";N;s:5:"title";s:9:"RSS Feeds";s:3:"url";s:10:"/rss-feeds";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:8:"rssItems";a:1:{s:8:"maxItems";s:2:"10";}}}
