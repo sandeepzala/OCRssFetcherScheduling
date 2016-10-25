@@ -1,5 +1,6 @@
 #Description 
-	This repository octoberCMS installation + Rss Fetcher Plugin. Setup an laravel artisan scheduler to fetch job daily.
+	This repository octoberCMS installation + Rss Fetcher Plugin. 
+	Laravel artisan scheduler configured to fetch job daily.
 
 #Execution Step 
 
