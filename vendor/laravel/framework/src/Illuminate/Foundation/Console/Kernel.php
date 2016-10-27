@@ -39,7 +39,7 @@ class Kernel implements KernelContract
      *
      * @var array
      */
-    protected $commands =  ["Adrenth\RssFetcher\Commands\FetchRssCommand"];
+    protected $commands =  [];
 
     /**
      * The bootstrap classes for the application.
@@ -142,7 +142,7 @@ class Kernel implements KernelContract
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('adrenth:fetch-rss')->daily();
+        //$schedule->command('adrenth:fetch-rss')->daily();
     }
 
     /**

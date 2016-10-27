@@ -132,4 +132,9 @@ class Plugin extends PluginBase
             'Adrenth\RssFetcher\FormWidgets\TextWithPrefix' => 'textWithPrefix'
         ];
     }
+
+    public function registerSchedule($schedule)
+    {
+        Artisan::call('adrenth:fetch-rss');
+    }
 }
